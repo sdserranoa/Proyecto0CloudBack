@@ -1,5 +1,5 @@
 var pgp = require("pg-promise")(/*options*/);
-var db = pgp("postgres://postgres:admin123@localhost:5432/postgres");
+var db = pgp("postgres://postgres:postgres@localhost:5432/postgres");
 
 /*EVENTS*/
 const getEventList = (callback) => {
